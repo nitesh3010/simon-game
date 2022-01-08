@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(219, 80, 201);
+}
+.head{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    word-spacing: 30px;
+    text-shadow: 2px 2px 8px #FF0000;
+    padding-bottom: 5rem;
+}
+.buttons{
+    text-align: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;  
+}
+.red{
+    margin: 1rem;
+    background-color: red;
+    border-radius: 30%;
+    border: 5px solid black;
+    font-size: 2rem;
+   
+}
+.blue{
+    margin: 1rem;
+    background-color: blue;
+    border-radius: 30%;
+    border: 5px solid black;
+    font-size: 2rem;
+  
+}
+.green{
+    margin: 1rem;
+    background-color: green;
+    border-radius: 30%;
+    border: 5px solid black;
+    font-size: 2rem;
+   
+}
+.yellow{
+    margin: 1rem;
+    background-color: yellow;
+    border-radius: 30%;
+    border: 5px solid black;
+    font-size: 2rem;
+   
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  footer{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    word-spacing: 30px;
+    text-shadow: 2px 2px 8px #FF0000;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .B{
+    text-align: center;
+    padding: 20px 20px;
+  }
+  .rules{
+    font-size: 2rem;
+    font-family: 'Racing Sans One', cursive;
+    font-weight: 400;
+    word-spacing: 30px;
+    text-shadow: 2px 2px 8px #FF0000;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  a{
+      color: black;
+  }
+
+  ol{
+      padding: 30px 30px;
+  }
+li{
+ line-height: 3;   
+ font-family: 'Racing Sans One', cursive;
+ font-weight: 400;
+ 
+}
+
+.input{
+  text-align: center;
+  border-radius: 60%;
+
+}
+
+
+
+
+
+  @media (max-width:400px){
+    .head{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 3rem;
+        font-family: 'Racing Sans One', cursive;
+        font-weight: 200;
+        word-spacing: 30px;
+        text-shadow: 2px 2px 8px #FF0000;
+        padding-bottom: 5rem;
+    }
+    .red{
+      font-size: 1.5rem;
+    }
+    .blue{
+      font-size: 1.5rem;
+    }
+    .green{
+      font-size: 1.5rem;
+    }
+    .yellow{
+      font-size: 1.5rem;
+    }
+    .rules{
+        font-size: 2rem;
+        font-family: 'Racing Sans One', cursive;
+        font-weight: 200;
+        word-spacing: 30px;
+        text-shadow: 2px 2px 8px #FF0000;
+        border-radius: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .btn{
+        height: 100px;
+        width: 100px;  
+    }
+    footer{
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 1rem;
+        font-family: 'Racing Sans One', cursive;
+        font-weight: 200;
+        word-spacing: 30px;
+        text-shadow: 2px 2px 8px #FF0000;
+        padding-top: 3rem;
+        padding-bottom: 5rem;
+      }
+  }
